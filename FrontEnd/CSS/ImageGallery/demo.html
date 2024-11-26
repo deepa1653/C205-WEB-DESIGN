@@ -1,0 +1,188 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+          }
+
+        nav {
+            background-color: aqua;
+            height: 500px;
+            width: 600px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 2px;
+            padding: 5px;
+
+        }
+
+        h1 {
+            border: solid;
+            border-radius: 10px;
+            width: 100px;
+            padding: 10px;
+            margin: 2px;
+            background-color: orange;
+            display: flex;
+            flex-direction: column;
+
+
+
+        }
+
+        .are {
+            background-color: black;
+            border: solid black;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+    <nav>
+        <div class="are">
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+        </div>
+    </nav>
+
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       .container{
+        display: flex;
+       
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      
+       }
+       .one{
+        background-color: greenyellow;
+       
+        height: 100px;
+        margin: 5px;
+        padding: 10;
+       
+       }
+       .two{
+        background-color: aqua;
+      
+        
+        height: 100px;
+        margin: 3px;
+        padding: 10;
+        flex-basis: 25%;
+
+       }
+       .three{
+        background-color: gainsboro;
+     
+        height: 100px;
+        margin: 3px;
+        padding: 10;
+        flex-basis: 20%;
+       }
+       @media screen and (max-width:800pc){
+        .one{
+            flex-basis: 40%;
+        }
+        
+       }
+   
+       @media screen and (max-width:600pc){
+        .one{
+            flex-basis: 80%;
+        }
+        
+       }
+   
+       @media screen and (max-width:300pc){
+        .one{
+            flex-basis: 100%;
+        }
+        
+       }
+       @media screen and (max-width:800pc){
+        .two{
+            flex-basis: 40%;
+        }
+        
+       }
+   
+       @media screen and (max-width:600pc){
+        .two{
+            flex-basis: 80%;
+        }
+        
+       }
+   
+       @media screen and (max-width:300pc){
+        .two{
+            flex-basis: 100%;
+        }
+        
+       }
+       @media screen and (max-width:800pc){
+        .three{
+            flex-basis: 40%;
+        }
+        
+       }
+   
+       @media screen and (max-width:600pc){
+        .three{
+            flex-basis: 80%;
+        }
+        
+       }
+   
+       @media screen and (max-width:300pc){
+        .three{
+            flex-basis: 100%;
+        }
+        
+       }
+    </style>
+
+    <div class="container">
+        <div class="one">a</div>
+        <div class="two">b</div>
+        <div class="two">v</div>
+        <div class="two">s</div>
+        <div class="two">d</div>
+        <div class="three">a</div>
+
+        </div>
+</body>
+</html>
